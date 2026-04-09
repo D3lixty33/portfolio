@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio — Full Stack Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+
+  <div id="cursor"></div>
+  <div id="cursor-ring"></div>
+
+  <!-- Nav -->
+  <nav id="nav">
+    <a href="#" class="nav-logo">AJ.</a>
+    <div class="nav-links">
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact" class="nav-cta">Let's talk →</a>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-grid"></div>
+
+    <div class="hero-label">Full Stack Developer — Available for Work</div>
+    <h1 class="hero-name">Ahmed<br>Sehic<span>.</span></h1>
+    <div class="hero-bottom">
+      <p class="hero-desc">I build fast, thoughtful digital products — from pixel-perfect frontends to scalable backend
+        systems. Based in Padua, working globally.</p>
+      <div class="hero-stats">
+        <div class="stat-item">
+          <span class="stat-num">5+</span>
+          <p class="stat-label">Years experience</p>
+        </div>
+        <div class="stat-item">
+          <span class="stat-num">24</span>
+          <p class="stat-label">Projects shipped</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- Marquee -->
+  <div class="marquee-section">
+    <div class="marquee-track">
+      <div class="marquee-item">React</div>
+      <div class="marquee-item">Node.js</div>
+      <div class="marquee-item">TypeScript</div>
+      <div class="marquee-item">PostgreSQL</div>
+      <div class="marquee-item">Next.js</div>
+      <div class="marquee-item">Docker</div>
+      <div class="marquee-item">AWS</div>
+      <div class="marquee-item">GraphQL</div>
+      <div class="marquee-item">Redis</div>
+      <div class="marquee-item">Prisma</div>
+      <div class="marquee-item">Tailwind</div>
+      <div class="marquee-item">Kubernetes</div>
+      <!-- duplicate for seamless loop -->
+      <div class="marquee-item">React</div>
+      <div class="marquee-item">Node.js</div>
+      <div class="marquee-item">TypeScript</div>
+      <div class="marquee-item">PostgreSQL</div>
+      <div class="marquee-item">Next.js</div>
+      <div class="marquee-item">Docker</div>
+      <div class="marquee-item">AWS</div>
+      <div class="marquee-item">GraphQL</div>
+      <div class="marquee-item">Redis</div>
+      <div class="marquee-item">Prisma</div>
+      <div class="marquee-item">Tailwind</div>
+      <div class="marquee-item">Kubernetes</div>
+    </div>
+  </div>
+
+  <!-- Work -->
+  <section class="work" id="work">
+    <div class="section-label reveal">Selected Work</div>
+    <div class="projects-grid">
+
+      <div class="project-item reveal">
+        <span class="project-num">01</span>
+        <div>
+          <div class="project-name">Streamline CRM</div>
+          <p style="font-size:13px; color: var(--text-muted); margin-top: 6px;">B2B SaaS — Customer pipeline platform
+          </p>
+        </div>
+        <div style="display:flex; gap:8px; flex-wrap:wrap; justify-content: center;">
+          <span class="tag">Next.js</span>
+          <span class="tag">Postgres</span>
+          <span class="tag">Stripe</span>
+        </div>
+        <span class="project-arrow">↗</span>
+      </div>
+
+      <div class="project-item reveal reveal-delay-1">
+        <span class="project-num">02</span>
+        <div>
+          <div class="project-name">Pulse Analytics</div>
+          <p style="font-size:13px; color: var(--text-muted); margin-top: 6px;">Real-time data visualization dashboard
+          </p>
+        </div>
+        <div style="display:flex; gap:8px; flex-wrap:wrap; justify-content: center;">
+          <span class="tag">React</span>
+          <span class="tag">WebSockets</span>
+          <span class="tag">Redis</span>
+        </div>
+        <span class="project-arrow">↗</span>
+      </div>
+
+      <div class="project-item reveal reveal-delay-2">
+        <span class="project-num">03</span>
+        <div>
+          <div class="project-name">Nomad API</div>
+          <p style="font-size:13px; color: var(--text-muted); margin-top: 6px;">RESTful services for travel booking
+            platform</p>
+        </div>
+        <div style="display:flex; gap:8px; flex-wrap:wrap; justify-content: center;">
+          <span class="tag">Node.js</span>
+          <span class="tag">GraphQL</span>
+          <span class="tag">Docker</span>
+        </div>
+        <span class="project-arrow">↗</span>
+      </div>
+
+      <div class="project-item reveal reveal-delay-3">
+        <span class="project-num">04</span>
+        <div>
+          <div class="project-name">Forma Design System</div>
+          <p style="font-size:13px; color: var(--text-muted); margin-top: 6px;">Component library for product teams</p>
+        </div>
+        <div style="display:flex; gap:8px; flex-wrap:wrap; justify-content: center;">
+          <span class="tag">TypeScript</span>
+          <span class="tag">Storybook</span>
+          <span class="tag">CSS</span>
+        </div>
+        <span class="project-arrow">↗</span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about" id="about">
+    <div class="section-label reveal">About</div>
+    <div class="about-inner">
+      <div class="about-left reveal">
+        <h2 class="about-heading">Crafting software that <em>matters</em></h2>
+        <p class="about-body">I'm a full stack developer who cares about the details — performance, accessibility, and
+          the tiny interactions that make software feel alive. I thrive working across the whole stack, from database
+          schemas to design systems.</p>
+        <p class="about-body">When I'm not building, I'm probably reading about distributed systems, experimenting with
+          new frameworks, or watching MotoGP too late at night.</p>
+        <div class="availability">
+          <div class="availability-dot"></div>
+          Available for new projects — 2024
+        </div>
+      </div>
+      <div class="about-right reveal reveal-delay-2">
+        <div class="skills-grid">
+          <div class="skill-block">
+            <div class="skill-category">Frontend</div>
+            <div class="skill-list">
+              <span class="skill-pill">React</span>
+              <span class="skill-pill">Next.js</span>
+              <span class="skill-pill">TypeScript</span>
+              <span class="skill-pill">Tailwind</span>
+              <span class="skill-pill">Framer</span>
+            </div>
+          </div>
+          <div class="skill-block">
+            <div class="skill-category">Backend</div>
+            <div class="skill-list">
+              <span class="skill-pill">Node.js</span>
+              <span class="skill-pill">Python</span>
+              <span class="skill-pill">GraphQL</span>
+              <span class="skill-pill">REST</span>
+              <span class="skill-pill">Go</span>
+            </div>
+          </div>
+          <div class="skill-block">
+            <div class="skill-category">Database</div>
+            <div class="skill-list">
+              <span class="skill-pill">PostgreSQL</span>
+              <span class="skill-pill">MongoDB</span>
+              <span class="skill-pill">Redis</span>
+              <span class="skill-pill">Prisma</span>
+            </div>
+          </div>
+          <div class="skill-block">
+            <div class="skill-category">DevOps</div>
+            <div class="skill-list">
+              <span class="skill-pill">AWS</span>
+              <span class="skill-pill">Docker</span>
+              <span class="skill-pill">K8s</span>
+              <span class="skill-pill">CI/CD</span>
+              <span class="skill-pill">Terraform</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section class="experience" id="experience">
+    <div class="section-label reveal">Experience</div>
+    <div class="exp-list">
+
+      <div class="exp-item reveal">
+        <div class="exp-period">2022 — Present</div>
+        <div class="exp-right">
+          <div class="exp-company">Meridian Labs</div>
+          <div class="exp-role">Senior Full Stack Engineer</div>
+          <p class="exp-desc">Led architecture and delivery of a multi-tenant SaaS platform serving 40,000+ users.
+            Reduced API response times by 65% through caching strategy overhaul and query optimization.</p>
+        </div>
+      </div>
+
+      <div class="exp-item reveal reveal-delay-1">
+        <div class="exp-period">2020 — 2022</div>
+        <div class="exp-right">
+          <div class="exp-company">Inkwell Studio</div>
+          <div class="exp-role">Full Stack Developer</div>
+          <p class="exp-desc">Built and maintained client-facing web products across fintech and e-commerce. Designed
+            and implemented a custom CMS that reduced content update time by 80%.</p>
+        </div>
+      </div>
+
+      <div class="exp-item reveal reveal-delay-2">
+        <div class="exp-period">2018 — 2020</div>
+        <div class="exp-right">
+          <div class="exp-company">Freelance</div>
+          <div class="exp-role">Frontend Developer</div>
+          <p class="exp-desc">Worked with startups and agencies to ship production-ready interfaces. Focused on
+            performance, accessibility, and smooth user experiences.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <div class="contact-overline reveal">Let's build together</div>
+    <h2 class="contact-heading reveal">
+      Have an idea?
+      <span>Let's talk.</span>
+    </h2>
+    <a href="mailto:alex@example.com" class="contact-email reveal reveal-delay-1">
+      sehicahmed1@gmail.com →
+    </a>
+    <div class="contact-links reveal reveal-delay-2">
+      <a href="#" class="contact-link">GitHub ↗</a>
+      <a href="#" class="contact-link">LinkedIn ↗</a>
+      <a href="#" class="contact-link">Twitter ↗</a>
+      <a href="#" class="contact-link">Read.cv ↗</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <span class="footer-copy">© 2024 Ahmed Sehic. All rights reserved.</span>
+    <span class="footer-copy" style="display:flex; align-items:center; gap:8px;">
+      <span style="width:6px;height:6px;background:var(--green);border-radius:50%;"></span>
+      Designed & built by hand
+    </span>
+  </footer>
+  <script src="./main.js" defer></script>
+</body>
+
+</html>
